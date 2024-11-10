@@ -1,0 +1,53 @@
+.nav--bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom:2px solid violet ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu--box{
+    width:60%;
+    position: absolute;
+    top:50px;
+    right:0px;
+    
+}
+.menu--box>div:nth-child(2n-1){
+    
+}
+
+.a{
+     font-weight: 900;
+     font-size: 30px;
+}
+
+.b{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu--item {
+    padding:20px;
+    margin-top:3px;
+    height: 20px;
+    background-color: #ddd;
+    font-weight: 600;
+    box-shadow: 3px 3px 3px violet;
+    border-top-left-radius: 5px;
+}
+
+.animate{
+    animation: slide  1s ;   
+}
+ @keyframes slide{
+    from{
+          opacity: 0.2;
+          transform: translateX(300px);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0px);
+    }
+ }

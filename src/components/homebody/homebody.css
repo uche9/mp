@@ -1,0 +1,173 @@
+.container--homebody{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brief--intro{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.name{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top:50px;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.profile--photo--container{
+    background-color: #60a6ec;
+    width: 90%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile--photo{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px blue;
+}
+.aboutme--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin:20px
+}
+.aboutme--container>div:nth-child(1) , .what--service, .experience, .portfolio{
+    font-weight: 700;
+    font-size: 25px;     
+}
+
+.underline{
+    margin-top: 5px;
+    width: 100px;
+    height:5px;
+    background-color: orangered;
+    border-radius:2.5px;
+    margin-bottom: 15px;  
+}
+
+.contact--button{
+    padding:15px;
+    background-color: orangered;
+    box-shadow: 2px 2px 2px blue;
+    border-radius: 5px;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.service--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin:20px;
+    margin-top: 100px;
+    background-color: #dcc;
+    width:90%;
+    margin-bottom:50px;
+}
+
+.service--item--container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:column;
+    height:auto;
+    width: 250px;
+    margin :20px;
+    background-color:#fff;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px blue;
+    padding: 5%;
+}
+
+
+
+.service--data--array{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service--icon{
+    color:orangered;   
+    margin-bottom: 20px;
+    background-color: #4f6606;
+    border-radius: 50%;
+    padding:3px
+}
+.service--icon--container{
+    background-color: #229;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.service--name{
+    color: #229;
+    font-weight: 700;
+    height: 25px;
+    font-size: 16px;
+}
+
+.service--description{   
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: auto;
+}
+
+.experience--container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #bbe;
+    width:90%;
+    margin-bottom: 50px;
+}
+.experience--item--container{
+    display: flex;
+    justify-content:space-between;   
+    flex-direction:column;
+    height:auto;
+    width: 250px;
+    margin :20px;
+    background-color:#fff;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(17, 255, 0);
+    padding: 5%;
+}
+.experience--data--array{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+
+.portfolio--container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #aad;
+    width:90%;
+    margin-bottom: 50px;
+}

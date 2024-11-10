@@ -1,0 +1,17 @@
+.container--footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(9, 176, 227);
+    padding: 50px;
+    
+}
+
+.social--media--data--array{
+    width:200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(204, 255, 0);
+}
